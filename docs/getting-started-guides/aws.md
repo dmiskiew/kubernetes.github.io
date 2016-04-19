@@ -11,7 +11,7 @@
 3. You need an AWS [instance profile and role](http://docs.aws.amazon.com/IAM/latest/UserGuide/instance-profiles.html) with EC2 full access.
 
 NOTE: This script use the 'default' AWS profile by default.
-You may explicitly set AWS profile to use using the `AWS_DEFAULT_PROFILE` environment variable:
+You may explicitly set AWS profile (do not confuse AWS instance profile or you will get `The config profile (myawsprofile) could not be found` error) to use using the `AWS_DEFAULT_PROFILE` environment variable:
 
 ```shell
 export AWS_DEFAULT_PROFILE=myawsprofile
